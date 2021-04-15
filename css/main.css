@@ -18,6 +18,16 @@ body{
     /* display: block; */
     position: relative;
 }
+.border{
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    transform: translateY(-50%);
+}
+.border img{
+    width: 105%;
+    transform: translateX(-2.5%);
+}
 .logo-full{
     max-width: 30%;
 }
