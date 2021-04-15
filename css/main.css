@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Inconsolata', monospace;
+}
 .full-page{
     width: 100%;
     height: 100vh;
@@ -33,4 +36,13 @@
 }
 .dua{
     background-color: #fff6d5;
+    padding: 20vh 0;
+}
+.dua .foto{
+    width: 80%;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    height: 100vh;
 }
