@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,61 +15,43 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-        /* .kotak{
-            border: 3px solid white;
-            padding: .5em;
-            padding-top: 2em;
-            left: -1em;
-            top: -3em;
-            position: relative;
-            padding-left: 1em;
-            z-index: 1;
-            border-top: none;
-        }
-        .jumbotron h1{
-            color: white;
-        } */
-        .kotak p{
-            font-family: monospace;
-            font-size: small;
-        }
-        </style>
+
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-2">
-                        <br><br>
-                        <img src="img/logo1.png" width="90%">
-                    </div>
-                    <div class="col-md-4">
-                        <h1>Mufid Hadi:</h1>
-                        <div class="kotak">
-                            <p>> abang-abang tukang bikin software</p>
-                            <p>> gak bisa begadang</p>
-                            <p>> ngemilnya kuaci</p>
-                        </div>
-                        <p>
-                            <a class="btn btn-danger btn-lg" href="http://wa.me/6285740130359" target="_blank">
-                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                                &ensp;
-                                Contact me
-                            </a>
-                        </p>
-                    </div>
-                </div>
+        <section class="full-page satu" id="satu">
+            <!-- <img src="img/logo/full.png" class="logo-full" alt=""> -->
+            <div class="logo-big">
+                <img class="lax lax_preset_slideY:50:10" src="img/logo/layer1.png" alt="">
+                <img class="lax lax_preset_slideY:50:10" src="img/logo/layer2.png" alt="">
+                <img class="lax lax_preset_slideY:50:10" src="img/logo/layer3.png" alt="">
+                <img class="lax lax_preset_slideY:50:10" src="img/logo/layer4.png" alt="">
+                <img class="lax lax_preset_slideY:50:10" src="img/logo/layer5.png" alt="">
+                <img class="lax lax_preset_slideY:50:10" src="img/logo/layer6.png" alt="">
             </div>
-        </div>
-        
+        </section>
+        <section class="full-page dua">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem assumenda nesciunt saepe distinctio. Aut fugit doloremque laborum voluptatibus repellendus aliquid minus vel possimus. Exercitationem delectus libero veniam assumenda at.</p>
+        </section>
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Bootstrap JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- laxx -->
+        <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+        <script>
+            window.onload = function () {
+                lax.init();
+
+                // Add a driver that we use to control our animations
+                lax.addDriver('scrollY', function () {
+                    // console.log(window.scrollY);
+                    return window.scrollY
+                });
+
+                updateLaxSettings();
+            }
+        </script>
     </body>
 </html>

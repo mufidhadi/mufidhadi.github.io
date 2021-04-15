@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mufid Hadi</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        /* .kotak{
+            border: 3px solid white;
+            padding: .5em;
+            padding-top: 2em;
+            left: -1em;
+            top: -3em;
+            position: relative;
+            padding-left: 1em;
+            z-index: 1;
+            border-top: none;
+        }
+        .jumbotron h1{
+            color: white;
+        } */
+        .kotak p{
+            font-family: monospace;
+            font-size: small;
+        }
+        </style>
+    </head>
+    <body>
+        
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        <br><br>
+                        <img src="img/logo1.png" width="90%">
+                    </div>
+                    <div class="col-md-4">
+                        <h1>Mufid Hadi:</h1>
+                        <div class="kotak">
+                            <p>> abang-abang tukang bikin software</p>
+                            <p>> gak bisa begadang</p>
+                            <p>> ngemilnya kuaci</p>
+                        </div>
+                        <p>
+                            <a class="btn btn-danger btn-lg" href="http://wa.me/6285740130359" target="_blank">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                &ensp;
+                                Contact me
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
