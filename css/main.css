@@ -63,9 +63,33 @@ img.logo-kuaci{
 .tiga{
     background-color: #58a4b0;
     padding: 20vh 0;
+    color: white;
+}
+.tiga .container{
+    margin-top: 10vh;
 }
 .empat{
     background-color: #2d3047;
     padding: 20vh 0;
-
+    padding-bottom: 0vh;
+    color: #58a4b0;
+}
+.empat .container{
+    margin-top: 10vh;
+}
+.empat .container .row{
+    margin-top: 2em;
+}
+.btn.contact{
+    border: 3px solid #58a4b0;
+    border-radius: 2em;
+    padding: 1em 2em;
+    background-color: transparent;
+    color: #58a4b0;
+    font-weight: bolder;
+}
+.btn.contact:hover{
+    border: 3px solid #58a4b0;
+    background-color: #58a4b0;
+    color: #2d3047;
 }
