@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mufid Hadi</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <section class="full-page satu" id="satu">
+            <!-- <img src="img/logo/full.png" class="logo-full" alt=""> -->
+            <div class="logo-big">
+                <img class="rellax" data-rellax-speed="-.3" src="img/logo/layer1.png" alt="">
+                <img class="rellax" data-rellax-speed="-.2" src="img/logo/layer2.png" alt="">
+                <img class="rellax" data-rellax-speed="-.1" src="img/logo/layer3.png" alt="">
+                <img class="rellax" data-rellax-speed=".0" src="img/logo/layer4.png" alt="">
+                <img class="rellax" data-rellax-speed=".1" src="img/logo/layer5.png" alt="">
+                <img class="rellax" data-rellax-speed=".2" src="img/logo/layer6.png" alt="">
+            </div>
+        </section>
+        <div class="border">
+            <img src="img/border_satu.png" alt="">
+        </div>
+        <section class="dua">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4 profil">
+                        <img src="img/foto_mufid_hitam_circle.png" alt="" class="foto">
+                    </div>
+                    <div class="col-sm-4 profil">
+                        <p>
+                            I am a Full stack developer with four years of work experience. I like learning new things, challenges, and always prioritize working smartly to produce the best program products for clients and where I work.
+                        </p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>
+                            <img src="img/kuaci_dua.png" alt="" class="logo-kuaci">
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="border">
+            <img src="img/border_dua.png" alt="">
+        </div>
+        <section class="tiga">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <h4>I've made...</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center"><img src="img/logo-tiga.png" alt="" style="width: 10%;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 text-right">
+                        <h1>
+                            <img src="img/kuaci_tiga.png" alt="" class="logo-kuaci">
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="border">
+            <img src="img/border_tiga.png" alt="">
+        </div>
+        <section class="empat">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a type="button" class="btn btn-primary contact" href="http://wa.me/6285740130359" target="_blank">contact me</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 text-center">
+                        <p>
+                            I like learning new things, new challenges, and always prioritize working smartly to produce the best program products for clients 
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1>
+                            <img src="img/kuaci_empat.png" alt="" class="logo-kuaci">
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- laxx -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+        <script>
+            window.onload = function () {
+                lax.init();
+
+                // Add a driver that we use to control our animations
+                lax.addDriver('scrollY', function () {
+                    // console.log(window.scrollY);
+                    return window.scrollY
+                });
+
+                updateLaxSettings();
+            }
+        </script> -->
+        <!-- rellax -->
+        <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+        <script>
+            var rellax = new Rellax('.rellax');
+        </script>
+    </body>
+</html>
